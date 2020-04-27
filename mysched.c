@@ -13,6 +13,7 @@ MODULE_DESCRIPTION("Custom Scheduler Module");
 MODULE_LICENSE("GPL");
 
 #define PROC_CONFIG_FILENAME "mysched_file"
+#define BASE_10 10
 
 static ssize_t mysched_proc_read(struct file*, char*, size_t, loff_t*);
 static ssize_t mysched_proc_write(struct file*, char*, size_t, loff_t*);

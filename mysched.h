@@ -4,7 +4,6 @@
 #include <linux/fs.h>
 #include <linux/proc_fs.h>
 #include <linux/kernel.h>
-#include <linux/sched.h>
 #include <linux/sched/signal.h>
 
 MODULE_AUTHOR("Alexander Ding");
