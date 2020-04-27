@@ -1,5 +1,4 @@
 obj-m += mysched.o
-obj-m += mysched_queue.o
 
 PWD := $(shell pwd)
 KVER := $(shell uname -r)

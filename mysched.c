@@ -6,7 +6,7 @@
 #include <linux/kernel.h>
 #include <linux/sched.h>
 #include <linux/sched/signal.h>
-//#include <mysched.h>
+#include <mysched.h>
 
 MODULE_AUTHOR("Alexander Ding");
 MODULE_DESCRIPTION("Custom Scheduler Module");
