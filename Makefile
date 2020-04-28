@@ -1,4 +1,5 @@
 obj-m += mysched.o
+obj-m += mysched_policy.o
 
 PWD := $(shell pwd)
 KVER := $(shell uname -r)
