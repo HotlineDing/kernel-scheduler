@@ -1,0 +1,1 @@
+cmd_/home/ding/mykernel/mysched.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/ding/mykernel/mysched.ko /home/ding/mykernel/mysched.o /home/ding/mykernel/mysched.mod.o ;  true
