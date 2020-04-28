@@ -17,7 +17,6 @@ static ssize_t mysched_proc_write(struct file*, char*, size_t, loff_t*);
 static int mysched_proc_open(struct inode*, struct file*);
 static int mysched_proc_release(struct inode*, struct file*);
 
-
 //Custom Shared Structs
 static struct mysched_task{
   int pid = 0;
